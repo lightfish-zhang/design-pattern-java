@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         if(args.length != 2){
-			System.out.println("please input two args");
+			System.out.println("please input two args： name password");
 			return;
         }
         try  {
