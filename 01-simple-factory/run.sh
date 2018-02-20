@@ -1,4 +1,5 @@
 #!/bin/bash
+cd `dirname $0`
 fileName=$(basename `pwd`).jar
 if [ -d "build" ]; then
     rm build -rf
